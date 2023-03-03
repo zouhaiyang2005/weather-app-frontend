@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.flex-start{
+  align-items: flex-starts;
+}
+.flex-center{
+  align-items: center;
+}
+.flex-end{
+  align-items: flex-end;
+}
+.flex{
+  display:flex
+}
+.clear-padding{
+  padding: 0;
+}
+.clear-margin{
+  margin: 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(124, 123, 125); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: red; 
+}

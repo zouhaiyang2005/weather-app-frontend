@@ -1,0 +1,25 @@
+.socialMedia-title-img{
+  max-width: 30px;
+  width: 100%;
+  margin-right: 15px;
+}
+.socialMedia-title{
+  font-size: 25px;
+  color: rgb(25,25,25);
+  font-weight: bold;
+}
+
+.socialMedia-city{
+  font-size: 16px;
+  color:rgb(180,180,180);
+  margin-left: 5px;
+  
+}
+.posts{
+  height: 250px;
+  overflow-y: scroll;
+  margin-top: 20px;
+}
+.Next-btn{
+  
+}

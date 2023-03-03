@@ -1,0 +1,15 @@
+.post-img{
+  max-width: 50px;
+  width: 100%;
+}
+.post-content{
+  color:rgb(180,180,180);
+  font-size: 16px;
+  max-width: 170px;
+  text-align: left;
+  margin-left: 20px;
+
+}
+.socialMedia-post{
+  padding-right: 50px;
+}

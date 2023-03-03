@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  height: 100vh;
+  padding: 50px;
+  background-image: url(https://t4.ftcdn.net/jpg/05/20/06/15/360_F_520061593_ukrjpBJmXxRHy3GWjErO7joryhmYearx.jpg);
+  background-size: 100% 100%;
 }
 
 .App-logo {
