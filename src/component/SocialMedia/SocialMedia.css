@@ -21,5 +21,24 @@
   margin-top: 20px;
 }
 .Next-btn{
-  
+  letter-spacing: 5px;
+  font-size: 18px;
+  background: none;
+  border:none;
+  position:relative
+}
+.Next-btn::after{
+  position:absolute;
+  content:"";
+  top: -28px;
+  right: -15px;
+  border-left: 8px solid #ffa3a3;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  width: 0;
+  height: 0;
+  margin: 30px auto;
+}
+.Next-btn:hover{
+  cursor: pointer;
 }

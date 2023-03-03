@@ -2,19 +2,19 @@ import './SocialMedia.css'
 import SocialMediaPost from '../SocialMediaPost/SocialMediaPost'
 
 const post = [
-  {
+  {id:1,
     profileUrl:'https://toppng.com/uploads/preview/app-icon-set-login-icon-comments-avatar-icon-11553436380yill0nchdm.png',
     content:'Do not forget to bring your suitDo not forget to bring your suit'
   },
-  {
+  {id:2,
     profileUrl:'https://toppng.com/uploads/preview/app-icon-set-login-icon-comments-avatar-icon-11553436380yill0nchdm.png',
     content:'Do not forget to bring your suit Do not forget to bring your suit'
   },
-  {
+  {id:3,
     profileUrl:'https://toppng.com/uploads/preview/app-icon-set-login-icon-comments-avatar-icon-11553436380yill0nchdm.png',
     content:'Do not forget to bring your suit'
   },
-  {
+  {id:4,
     profileUrl:'https://toppng.com/uploads/preview/app-icon-set-login-icon-comments-avatar-icon-11553436380yill0nchdm.png',
     content:'Do not forget to bring your suit'
   }
@@ -30,7 +30,7 @@ export default function SocialMedia() {
       <div className='posts'>
         {post.map(item => {
           return (
-            <div>
+            <div key={item.id.toString()}>
               <SocialMediaPost item={item} />
             </div>
 
